@@ -1,8 +1,53 @@
 site_name: "test_page"
 site_url: "https://moonjong-shin.github.io/for_page_Test/"
+repo_url: "https://github.com/Moonjong-Shin/for_page_Test"
 
 plugins:
   - search
   - gen-files:
       scripts:
-        - train.py  # or any other name or path
+        - train.py
+  - literate-nav # or any other name or path
+  - mkdocstrings:
+        watch: [ mkdocs_gen_files ]
+        handlers:
+          python:
+            rendering:
+              show_root_heading: true
+              show_signature_annotations: true
+              show_source: false
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+  - admonition
+  - def_list
+  - toc:
+      permalink: "#"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    primary: teal
+    accent: purple
+
+nav:
+  - section-index: /mkdocs-section-index/
+  - literate-nav: /mkdocs-literate-nav/
+  - gen-files:
+    - Sample: docs/
+  - same-dir: /mkdocs-same-dir/
+
+
+#edit_uri: blob/master/docs/
+#use_directory_urls: false
+

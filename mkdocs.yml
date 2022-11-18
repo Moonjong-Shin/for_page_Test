@@ -1,0 +1,8 @@
+site_name: "test_page"
+site_url: "https://moonjong-shin.github.io/for_page_Test/"
+
+plugins:
+  - search
+  - gen-files:
+      scripts:
+        - train.py  # or any other name or path

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/foo/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/sample/19-bottles/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/sample/39-bottles/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/sample/59-bottles/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/sample/79-bottles/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moonjong-shin.github.io/for_page_Test/sample/99-bottles/</loc>
+         <lastmod>2022-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
